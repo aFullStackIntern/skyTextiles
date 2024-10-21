@@ -207,37 +207,37 @@ export default function Footer() {
             <Typography fontWeight={"bold"}>Links</Typography>
             <Stack color={"#393737"} gap={"6px"}>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/company-profile")}
               >
                 Company Profile
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/infrastructure")}
               >
                 Infrastructure
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/products")}
               >
                 Product Range
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/sustainability")}
               >
                 Sustainability
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/clients")}
               >
                 Clients
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/get-in-touch")}
               >
                 Get In Touch
@@ -248,19 +248,19 @@ export default function Footer() {
             <Typography fontWeight={"bold"}>Products</Typography>
             <Stack color={"#393737"} gap={"6px"}>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/products/yarns")}
               >
                 Yarns
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/products/fabrics")}
               >
                 Fabrics
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/products/garments")}
               >
                 Garments
@@ -271,19 +271,19 @@ export default function Footer() {
             <Typography fontWeight={"bold"}>Company</Typography>
             <Stack color={"#393737"} gap={"6px"}>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/company-profile/sky-textiles")}
               >
                 Sky Textile
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() => router.push("/company-profile/sky-primware")}
               >
                 Sky Primware
               </Typography>
               <Typography
-                sx={{ cursor: "pointer" }}
+                sx={{ cursor: "pointer", "&:hover": { color: "#FB5457" } }}
                 onClick={() =>
                   router.push("/company-profile/sky-international")
                 }

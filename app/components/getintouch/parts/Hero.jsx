@@ -8,7 +8,7 @@ export default function Hero() {
       margin={{ md: "150px 70px", smm: "100px 20px", xs: "100px 20px" }}
       marginBottom={"50px"}
       justifyContent={"space-between"}
-      direction={{ smm: "row" }}
+      direction={{ md: "row" }}
     >
       <Stack width={{ md: "40%" }}>
         <Typography
@@ -27,19 +27,19 @@ export default function Hero() {
           Let's talk.
         </Typography>
       </Stack>
-      {/* <Stack
+      <Stack
         position={{ md: "relative" }}
-        width={{ md: "60%", xs: "100vw" }}
-        height={{ md: "90vh", xs: "40vh" }}
+        width={{ md: "60%", xs: "100%" }}
+        height={{ md: "50vh", xs: "30vh" }}
       >
         <Image src={gmail} alt="" fill objectFit="contain" />
-      </Stack> */}
-      <Box display={{ md: "none" }}>
+      </Stack>
+      {/* <Box display={{ md: "none" }}>
         <Image src={gmail} alt="" width={300} height={80} />
       </Box>
       <Box display={{ md: "block", xs: "none" }}>
         <Image src={gmail} alt="" width={500} height={140} />
-      </Box>
+      </Box> */}
     </Stack>
   );
 }
