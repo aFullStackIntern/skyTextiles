@@ -5,6 +5,7 @@ import Image from "next/image";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
 import { FaArrowRight } from "react-icons/fa";
 import * as React from "react";
 import { styled } from "@mui/material/styles";
@@ -337,42 +338,75 @@ export default function Footer() {
             <Typography>Contacts</Typography>
           </Stack>
           <Stack direction={"row"} gap={"10px"}>
-            <Stack
-              borderRadius={"100%"}
-              sx={{
-                border: "1px solid black",
-                width: "30px",
-                height: "30px",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
+            <a
+              style={{ color: "black" }}
+              href="https://www.linkedin.com/company/skytextilesindia"
+              target="blank"
             >
-              <FaLinkedinIn />
-            </Stack>
-            <Stack
-              borderRadius={"100%"}
-              sx={{
-                border: "1px solid black",
-                width: "30px",
-                height: "30px",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
+              <Stack
+                borderRadius={"100%"}
+                sx={{
+                  border: "1px solid black",
+                  width: "30px",
+                  height: "30px",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  transition: "all 0.3s ease",
+                  cursor: "pointer",
+                  "&:hover": {
+                    transform: "scale(1.1)",
+                  },
+                }}
+              >
+                <FaLinkedinIn />
+              </Stack>
+            </a>
+            <a
+              href="https://www.facebook.com/Skytextilesinda"
+              style={{ color: "black" }}
+              target="blank"
             >
-              <FaFacebookF />
-            </Stack>
-            <Stack
-              borderRadius={"100%"}
-              sx={{
-                border: "1px solid black",
-                width: "30px",
-                height: "30px",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
+              <Stack
+                borderRadius={"100%"}
+                sx={{
+                  border: "1px solid black",
+                  width: "30px",
+                  height: "30px",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  transition: "all 0.3s ease",
+                  cursor: "pointer",
+                  "&:hover": {
+                    transform: "scale(1.1)",
+                  },
+                }}
+              >
+                <FaFacebookF />
+              </Stack>
+            </a>
+            <a
+              href="https://www.instagram.com/sky_textiles/"
+              style={{ color: "black" }}
+              target="blank"
             >
-              <FaXTwitter />
-            </Stack>
+              <Stack
+                borderRadius={"100%"}
+                sx={{
+                  border: "1px solid black",
+                  width: "30px",
+                  height: "30px",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  transition: "all 0.3s ease",
+                  cursor: "pointer",
+                  "&:hover": {
+                    transform: "scale(1.1)",
+                  },
+                }}
+              >
+                <AiFillInstagram />
+              </Stack>
+            </a>
           </Stack>
         </Stack>
       </Stack>
@@ -425,7 +459,7 @@ export default function Footer() {
               justifyContent: "center",
             }}
           >
-            <FaXTwitter />
+            <AiFillInstagram />
           </Stack>
         </Stack>
         <Stack

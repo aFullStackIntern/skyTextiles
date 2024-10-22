@@ -12,9 +12,9 @@ import laptop from "../assets/laptop.png";
 import girlOnLaptop from "../assets/girlOnLaptop.png";
 
 import img1 from "../assets/Events/foundersDay/1.jpg";
-import img2 from "../assets/Events/foundersDay/2.jpg";
-import img3 from "../assets/Events/foundersDay/3.jpg";
-import img4 from "../assets/Events/foundersDay/4.jpg";
+import img2 from "../assets/Events/foundersDay/2.JPG";
+import img3 from "../assets/Events/foundersDay/3.JPG";
+import img4 from "../assets/Events/foundersDay/4.JPG";
 
 import ganesh from "../assets/Events/ganeshChaturthi/1.jpg";
 import independence from "../assets/Events/independenceDay/2.jpg";

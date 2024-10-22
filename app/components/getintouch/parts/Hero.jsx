@@ -39,11 +39,11 @@ export default function Hero() {
       >
         <Image src={gmail} alt="" fill objectFit="contain" />
       </Stack> */}
-      <Box display={{ md: "none", margin: "50px auto", marginBottom: "0" }}>
-        <Image src={gmail} alt="" width={300} height={80} />
+      <Box display={{ md: "none" }}>
+        <Image src={gmail} alt="" width={350} height={80} />
       </Box>
       <Box display={{ md: "block", xs: "none" }}>
-        <Image src={gmail} alt="" width={500} height={140} />
+        <Image src={gmail} alt="" width={600} height={140} />
       </Box>
     </Stack>
   );
