@@ -1,5 +1,6 @@
 import { Button, Stack, TextField, Typography } from "@mui/material";
 import { useState } from "react";
+import emailjs from "emailjs-com";
 
 const getTrasformStyles = (isHovered) => ({
   transform: `translateY(${isHovered ? "-100%" : "0"})`,
@@ -9,6 +10,34 @@ export default function Form({ setShowForm }) {
   const [isHovered, setIsHovered] = useState(false);
   const [email, setEmail] = useState("");
   const [position, setPosition] = useState("");
+  const [name, setName] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [notice, setNotice] = useState("");
+
+  const sendEmail = () => {
+    const formData = {
+      to_name: "Sky Textiles",
+      from_name: name,
+      email: email,
+      message: `Email: ${email}, Position: ${position}, Contacts: ${mobile}, Notice Period: ${notice}`,
+    };
+
+    emailjs
+      .send(
+        "service_f2qco9g", // Replace with your EmailJS service ID
+        "template_aunmm9w", // Replace with your EmailJS template ID
+        formData, // JSON object containing the data to be sent
+        "TDN-rIHfr7zAx4VqN"
+      )
+      .then((result) => {
+        console.log("Email sent successfully:", result.text);
+        alert("Email sent successfully!");
+      })
+      .catch((error) => {
+        console.log("Failed to send email:", error.text);
+        alert("Failed to send email.");
+      });
+  };
 
   return (
     <Stack
@@ -50,6 +79,8 @@ export default function Form({ setShowForm }) {
             sx={{
               width: { xll: "50%", smm: "50%", sm: "100%" },
             }}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
           <TextField
             variant="outlined"
@@ -79,6 +110,8 @@ export default function Form({ setShowForm }) {
           <TextField
             variant="outlined"
             label="Phone"
+            value={mobile}
+            onChange={(e) => setMobile(e.target.value)}
             sx={{
               width: { xll: "50%", smm: "50%", sm: "100%" },
             }}
@@ -95,6 +128,8 @@ export default function Form({ setShowForm }) {
           <TextField
             variant="outlined"
             label="Position"
+            value={position}
+            onChange={(e) => setPosition(e.target.value)}
             sx={{
               width: { xll: "50%", smm: "50%", sm: "100%" },
             }}
@@ -102,6 +137,8 @@ export default function Form({ setShowForm }) {
           <TextField
             variant="outlined"
             label="Notice Period"
+            value={notice}
+            onChange={(e) => setNotice(e.target.value)}
             sx={{
               width: { xll: "50%", smm: "50%", sm: "100%" },
             }}
@@ -125,32 +162,31 @@ export default function Form({ setShowForm }) {
         >
           Cancel
         </button>
-        <a href={`mailto:${email}`}>
-          <button
-            style={{
-              color: "white",
-              backgroundColor: "black",
-              padding: "10px 25px",
-              borderRadius: "5px",
-              fontWeight: "bold",
-              width: "fit-content",
-              cursor: "pointer",
-              outline: "none",
-              border: "none",
-            }}
-            onMouseEnter={() => {
-              setIsHovered(true);
-            }}
-            onMouseLeave={() => {
-              setIsHovered(false);
-            }}
-          >
-            <span className="fancy-button-text-container">
-              <span style={getTrasformStyles(isHovered)}>Apply</span>
-              <span style={getTrasformStyles(isHovered)}>Apply</span>
-            </span>
-          </button>
-        </a>
+        <button
+          style={{
+            color: "white",
+            backgroundColor: "black",
+            padding: "10px 25px",
+            borderRadius: "5px",
+            fontWeight: "bold",
+            width: "fit-content",
+            cursor: "pointer",
+            outline: "none",
+            border: "none",
+          }}
+          onClick={sendEmail}
+          onMouseEnter={() => {
+            setIsHovered(true);
+          }}
+          onMouseLeave={() => {
+            setIsHovered(false);
+          }}
+        >
+          <span className="fancy-button-text-container">
+            <span style={getTrasformStyles(isHovered)}>Apply</span>
+            <span style={getTrasformStyles(isHovered)}>Apply</span>
+          </span>
+        </button>
       </Stack>
     </Stack>
   );

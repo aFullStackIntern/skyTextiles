@@ -97,7 +97,7 @@ export default function ProductAnimated() {
   return (
     <>
       <Stack
-        margin={{ md: "0 70px 100px 70px ", xs: "30px" }}
+        margin={{ md: "0 70px 0 70px ", xs: "30px" }}
         justifyContent={"space-between"}
         direction={"row"}
         display={{ md: "flex", xs: "none" }}
@@ -152,7 +152,7 @@ export default function ProductAnimated() {
             </Typography>
           </Stack>
           <Stack
-            height={"90vh"}
+            height={"70vh"}
             className="garments"
             sx={{
               scrollSnapAlign: "start",

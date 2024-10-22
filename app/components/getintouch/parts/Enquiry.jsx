@@ -9,6 +9,9 @@ import call from "./assets/Call.png";
 import location from "./assets/LocationOutline.png";
 import Image from "next/image";
 
+import ahemdabad from "./assets/Ahmedabad.png";
+import gujarat from "./assets/Gujarat.png";
+
 export default function Enquiry() {
   return (
     <Stack>
@@ -75,11 +78,12 @@ export default function Enquiry() {
           <Stack width={{ md: "40%" }} gap={"10px"} alignItems={"center"}>
             <Box
               sx={{
-                backgroundImage: `url(${gate.src})`,
+                backgroundImage: `url(${ahemdabad.src})`,
                 backgroundSize: "contain",
                 backgroundPosition: "center center",
-                height: "100px",
-                width: "100px",
+                backgroundRepeat: "no-repeat",
+                height: "150px",
+                width: "150px",
               }}
             ></Box>
             <Typography
@@ -108,11 +112,12 @@ export default function Enquiry() {
           <Stack width={{ md: "40%" }} gap={"10px"} alignItems={"center"}>
             <Box
               sx={{
-                backgroundImage: `url(${gate.src})`,
+                backgroundImage: `url(${gujarat.src})`,
                 backgroundSize: "contain",
                 backgroundPosition: "center center",
-                height: "100px",
-                width: "100px",
+                backgroundRepeat: "no-repeat",
+                height: "150px",
+                width: "150px",
               }}
             ></Box>
             <Typography

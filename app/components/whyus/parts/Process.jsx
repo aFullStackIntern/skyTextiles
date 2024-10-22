@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const data = [
   "The Yarns Department at SKY Textiles specializes in producing high-quality yarns with a focus on sustainability and innovation. We utilize advanced spinning technology to ensure superior strength and durability while minimizing environmental impact. Committed to ethical sourcing, we prioritize the use of eco-friendly materials. Our diverse range of yarns supports various textile applications, catering to both local and international markets.",
-  " The Textiles Department at SKY Textiles is dedicated to producing high-quality, sustainable fabrics through an integrated vertical setup. We prioritize eco-friendly practices, ethical labor standards, and innovation in sustainable materials. Our Fiber-to-Fashion model ensures transparency and traceability, while community engagement initiatives empower local workers. By focusing on quality and sustainability, we lead in responsible textile production.",
+  " The Fabrics Department at SKY Textiles is dedicated to producing high-quality, sustainable fabrics through an integrated vertical setup. We prioritize eco-friendly practices, ethical labor standards, and innovation in sustainable materials. Our Fiber-to-Fashion model ensures transparency and traceability, while community engagement initiatives empower local workers. By focusing on quality and sustainability, we lead in responsible textile production.",
   "The Garmenting Department at SKY Primwear focuses on creating high-quality, stylish apparel while prioritizing sustainable practices. We utilize advanced manufacturing techniques to enhance efficiency and minimize waste. Committed to ethical labor standards, we ensure fair wages and safe working conditions for our employees. Our emphasis on innovation and quality positions us as a leader in the garment industry.",
 ];
 
@@ -99,7 +99,7 @@ export default function Process() {
               cursor: "pointer",
             }}
           >
-            Textiles
+            Fabrics
           </Stack>
           <Stack
             alignItems={"center"}

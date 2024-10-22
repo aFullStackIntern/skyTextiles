@@ -13,6 +13,7 @@ export default function Company() {
       <Navbar />
       <Box
         height={{ lg: "80vh", smm: "50vh", xs: "30vh" }}
+        marginTop={"50px"}
         width={"100%"}
         sx={{ backgroundImage: `url(${banner.src})`, backgroundSize: "cover" }}
       ></Box>

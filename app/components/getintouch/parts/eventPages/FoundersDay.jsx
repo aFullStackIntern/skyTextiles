@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Button, Stack, Typography } from "@mui/material";
 import Navbar from "../../../navbar/Navbar";
 import Footer from "../../../footer/Footer";
 import banner from "../assets/conference.png";
@@ -158,6 +158,13 @@ export default function Event() {
               width={{ xl: "30%", lg: "40%", md: "40%", sm: "95%" }}
               padding={"20px"}
               backgroundColor={"#f9f9f9"}
+              sx={{
+                cursor: "pointer",
+                transition: "all 0.3s ease",
+                "&:hover": {
+                  boxShadow: "2px 1px 20px 0 rgba(0, 0, 0, 0.15)",
+                },
+              }}
             >
               <Box
                 width="100%"
@@ -181,16 +188,16 @@ export default function Event() {
               <Typography fontSize={"1.3rem"} fontWeight={"bold"}>
                 {d.Title}
               </Typography>
-              <Stack direction={"row"} gap={"10px"} alignItems={"center"}>
+              {/* <Stack direction={"row"} gap={"10px"} alignItems={"center"}>
                 <Image src={time} alt="" height={15} width={15} />
                 <Typography>{d.time}</Typography>
-              </Stack>
+              </Stack> */}
               <Stack direction={"row"} gap={"10px"} alignItems={"center"}>
                 <Image src={location} alt="" height={16} width={12} />
                 <Typography>{d.Title}</Typography>
               </Stack>
               <Typography>{d.description}</Typography>
-              <button
+              <Button
                 style={{
                   marginTop: "20px",
                   width: "200px",
@@ -200,11 +207,15 @@ export default function Event() {
                   border: "none",
                   backgroundColor: "#F85658",
                   color: "white",
+                  transition: "all 0.4s ease",
+                  "&:hover": {
+                    transform: "scale(1.04)",
+                  },
                 }}
                 onClick={() => router.push(d.route)}
               >
                 View More
-              </button>
+              </Button>
             </Stack>
           ))}
         </Stack>

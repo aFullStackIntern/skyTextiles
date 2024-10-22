@@ -13,6 +13,7 @@ export default function Infra() {
       <Box
         height={{ lg: "80vh", smm: "50vh", xs: "30vh" }}
         width={"100%"}
+        marginTop={"50px"}
         sx={{ backgroundImage: `url(${banner.src})`, backgroundSize: "cover" }}
       ></Box>
       <Our />

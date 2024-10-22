@@ -292,7 +292,7 @@ export default function Overview() {
         </Stack>
       </Stack>
 
-      <Stack margin={"10px 20px"}>
+      <Stack margin={"10px 20px"} display={{ md: "none", xs: "flex" }}>
         <Typography
           fontSize={{ lg: "3rem", smm: "2rem", xs: "1.5rem" }}
           fontWeight={"bold"}

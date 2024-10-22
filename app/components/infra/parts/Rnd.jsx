@@ -48,6 +48,7 @@ export default function Rnd() {
     >
       <Typography
         fontSize={{ lg: "3rem", smm: "2rem", xs: "1.5rem" }}
+        lineHeight={"0.9"}
         fontWeight={"bold"}
         textAlign={"center"}
       >

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Strength() {
   return (
-    <Stack margin={{ md: "70px 70px", xs: "30px" }} gap={"50px"}>
+    <Stack margin={{ md: "30px 70px", xs: "30px" }} gap={"50px"}>
       <Typography
         fontSize={{ lg: "3rem", smm: "2rem", xs: "1.8rem" }}
         fontWeight={"bold"}
