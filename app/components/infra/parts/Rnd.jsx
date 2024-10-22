@@ -5,9 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import rnd from "./assets/main/rnd.JPG";
-import rnd2 from "./assets/main/rnd2.JPG";
-import rnd3 from "./assets/main/rnd3.JPG";
+import rnd from "./assets/Main/rnd.JPG";
+import rnd2 from "./assets/Main/rnd2.JPG";
+import rnd3 from "./assets/Main/rnd3.JPG";
 import { useState } from "react";
 
 const rndContent = [
