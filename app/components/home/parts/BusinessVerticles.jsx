@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import yarnImage from "./assets/Yarn.gif";
 import fabricImage from "./assets/Fabric.gif";
 import garmentImage from "./assets/Garment.gif";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import ReactLenis from "@studio-freight/react-lenis";
 import { FaCircle } from "react-icons/fa";
 
@@ -16,11 +16,13 @@ gsap.registerPlugin(useGSAP);
 
 export default function BusinessVerticles({ mapRef }) {
   const container = useRef(null);
+  const [tl] = useState(gsap.timeline({ delay: 0.8 }));
+
   useGSAP(() => {
     const innerHeight = window.innerHeight;
     gsap.registerPlugin(ScrollTrigger);
 
-    let tl = gsap.timeline();
+    // let tl = gsap.timeline();
     let tl2 = gsap.timeline();
     let tl3 = gsap.timeline();
     let tl4 = gsap.timeline();
