@@ -32,7 +32,7 @@ export default function BusinessVerticles({ mapRef }) {
       scrollTrigger: {
         trigger: ".imageContainer",
         start: "top 15%",
-        endTrigger: mapRef.current,
+        endTrigger: ".mapContainer",
         end: "top bottom",
         anticipatePin: 0.1,
         inertia: false,

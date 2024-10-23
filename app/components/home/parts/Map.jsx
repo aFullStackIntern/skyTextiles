@@ -4,7 +4,11 @@ import Image from "next/image";
 
 export default function ({ mapRef }) {
   return (
-    <Stack margin={{ md: "300px 0 100px 0", xs: "30px 0" }} ref={mapRef}>
+    <Stack
+      className="mapContainer"
+      margin={{ md: "300px 0 100px 0", xs: "30px 0" }}
+      ref={mapRef}
+    >
       <Typography
         fontSize={{ md: "3rem", smm: "2rem", xs: "1.5rem" }}
         sx={{
