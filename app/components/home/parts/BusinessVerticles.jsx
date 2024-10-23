@@ -38,7 +38,7 @@ export default function BusinessVerticles({ mapRef }) {
         inertia: false,
         pin: true,
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     })
       .to(".yarns", {
@@ -52,7 +52,7 @@ export default function BusinessVerticles({ mapRef }) {
           pin: true,
           pinSpacing: false,
           scrub: true,
-          markers: true,
+          // markers: true,
         },
       })
       .to(".fabrics, .garments", {
@@ -98,7 +98,7 @@ export default function BusinessVerticles({ mapRef }) {
         opacity: 1,
         scrollTrigger: {
           trigger: ".fabricsContainer",
-          start: "center 45%",
+          start: "center 65%",
           end: "+=10",
           scrub: true,
         },
@@ -120,7 +120,7 @@ export default function BusinessVerticles({ mapRef }) {
         scrollTrigger: {
           trigger: ".garmentsContainer",
           start: "center 45%",
-          endTrigger: mapRef.current,
+          endTrigger: ".imageContainer",
           end: "top bottom",
           anticipatePin: 0.1,
           inertia: false,
@@ -134,7 +134,7 @@ export default function BusinessVerticles({ mapRef }) {
         opacity: 1,
         scrollTrigger: {
           trigger: ".garmentsContainer",
-          start: "center 45%",
+          start: "center 65%",
           end: "+=10",
           scrub: true,
         },
