@@ -51,7 +51,7 @@ export default function BusinessVerticles({ mapRef }) {
           pin: true,
           pinSpacing: false,
           scrub: true,
-          // markers: true,
+          markers: true,
         },
       })
       .to(".fabrics, .garments", {
