@@ -25,26 +25,25 @@ export default function BusinessVerticles({ mapRef }) {
     let tl3 = gsap.timeline();
     let tl4 = gsap.timeline();
 
-    tl.to(".yarns", {
+    tl.to(".imageContainer", {
       scrollTrigger: {
-        trigger: ".yarns",
+        trigger: ".imageContainer",
         start: "top 15%",
-        endTrigger: ".fabricsContainer",
-        end: "top center",
+        endTrigger: mapRef.current,
+        end: "top bottom",
         anticipatePin: 0.1,
         inertia: false,
         pin: true,
-        pinSpacing: false,
         scrub: true,
-        // markers: true,
+        markers: true,
       },
     })
-      .to(".imageContainer", {
+      .to(".yarns", {
         scrollTrigger: {
-          trigger: ".imageContainer",
+          trigger: ".yarns",
           start: "top 15%",
-          endTrigger: mapRef.current,
-          end: "top bottom",
+          endTrigger: ".fabricsContainer",
+          end: "top center",
           anticipatePin: 0.1,
           inertia: false,
           pin: true,
@@ -53,7 +52,6 @@ export default function BusinessVerticles({ mapRef }) {
           // markers: true,
         },
       })
-
       .to(".fabrics, .garments", {
         y: 150,
         opacity: 0,
