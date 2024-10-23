@@ -17,6 +17,7 @@ gsap.registerPlugin(useGSAP);
 export default function BusinessVerticles({ mapRef }) {
   const container = useRef(null);
   const [tl] = useState(gsap.timeline({ delay: 0.8 }));
+  console.log(mapRef.current);
 
   useGSAP(() => {
     const innerHeight = window.innerHeight;
