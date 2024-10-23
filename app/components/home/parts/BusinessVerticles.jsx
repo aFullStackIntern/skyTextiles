@@ -39,6 +39,21 @@ export default function BusinessVerticles({ mapRef }) {
         // markers: true,
       },
     })
+      .to(".imageContainer", {
+        scrollTrigger: {
+          trigger: ".imageContainer",
+          start: "top 15%",
+          endTrigger: mapRef.current,
+          end: "top bottom",
+          anticipatePin: 0.1,
+          inertia: false,
+          pin: true,
+          pinSpacing: false,
+          scrub: true,
+          // markers: true,
+        },
+      })
+
       .to(".fabrics, .garments", {
         y: 150,
         opacity: 0,
@@ -137,20 +152,20 @@ export default function BusinessVerticles({ mapRef }) {
         },
       });
 
-    tl4.to(".imageContainer", {
-      scrollTrigger: {
-        trigger: ".imageContainer",
-        start: "top 15%",
-        endTrigger: mapRef.current,
-        end: "top bottom",
-        anticipatePin: 0.1,
-        inertia: false,
-        pin: true,
-        pinSpacing: false,
-        scrub: true,
-        // markers: true,
-      },
-    });
+    // tl4.to(".imageContainer", {
+    //   scrollTrigger: {
+    //     trigger: ".imageContainer",
+    //     start: "top 15%",
+    //     endTrigger: mapRef.current,
+    //     end: "top bottom",
+    //     anticipatePin: 0.1,
+    //     inertia: false,
+    //     pin: true,
+    //     pinSpacing: false,
+    //     scrub: true,
+    //     // markers: true,
+    //   },
+    // });
   });
 
   return (

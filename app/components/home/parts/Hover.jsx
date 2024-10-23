@@ -37,8 +37,10 @@ import image14 from "@/app/components/home/parts/assets/hoverImages/image14.jpg"
 import image15 from "@/app/components/home/parts/assets/hoverImages/image15.jpg";
 
 import sImage1 from "@/app/components/home/parts/assets/hoverImagesSmall/1.jpg";
+import sImage2 from "@/app/components/home/parts/assets/hoverImagesSmall/2.jpg";
 import sImage3 from "@/app/components/home/parts/assets/hoverImagesSmall/3.jpg";
 import sImage4 from "@/app/components/home/parts/assets/hoverImagesSmall/4.jpg";
+import sImage5 from "@/app/components/home/parts/assets/hoverImagesSmall/5.jpg";
 import sImage6 from "@/app/components/home/parts/assets/hoverImagesSmall/6.jpg";
 import sImage7 from "@/app/components/home/parts/assets/hoverImagesSmall/7.jpg";
 import sImage8 from "@/app/components/home/parts/assets/hoverImagesSmall/8.jpg";
@@ -91,10 +93,10 @@ const coverImages = [
 
 const hoverImages = [
   sImage1,
-  sImage1,
+  sImage2,
   sImage3,
   sImage4,
-  sImage4,
+  sImage5,
   sImage6,
   sImage7,
   sImage8,
