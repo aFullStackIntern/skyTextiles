@@ -18,21 +18,23 @@ import img4 from "../assets/Events/independenceDay/4.jpg";
 
 import ganesh from "../assets/Events/ganeshChaturthi/1.jpg";
 import independence from "../assets/Events/independenceDay/2.jpg";
+import fireSafety from "../assets/Events/fireSafety/1.jpg";
 import navratri from "../assets/Events/navratri/1.jpg";
 import { useRouter } from "next/navigation";
 
 const data = [
   {
-    Date: "15th Aug, 2023",
-    Title: "Independence Day celebration",
+    Date: "9th Oct, 2023",
+    Title: "Fire and safety programmes",
     time: "11 AM - 1 PM",
     location: "Sky Textiles",
     route:
-      "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/independence-day",
-    image: independence,
+      "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/fire-and-safety",
+    image: fireSafety,
     description:
-      "Independence Day celebration fostering patriotism and unity among our team.",
+      "Comprehensive Fire & Safety Programs ensuring a secure, compliant workplace environment.",
   },
+
   {
     Date: "19th Sept, 2023",
     Title: "Ganesh Chaturthi",
@@ -194,50 +196,52 @@ export default function Event() {
         >
           {data.map((d) => (
             <Stack
-              gap={"10px"}
               fontSize={"5px"}
               width={{ xl: "30%", lg: "40%", md: "40%", sm: "95%" }}
               padding={"20px"}
               backgroundColor={"#f9f9f9"}
               sx={{
                 cursor: "pointer",
+                justifyContent: "space-between",
                 transition: "all 0.3s ease",
                 "&:hover": {
                   boxShadow: "2px 1px 20px 0 rgba(0, 0, 0, 0.15)",
                 },
               }}
             >
-              <Box
-                width="100%"
-                height="30vh"
-                sx={{
-                  backgroundImage: `url(${d.image.src})`,
-                  backgroundSize: "cover",
-                  borderRadius: "5px",
-                }}
-              ></Box>
-              <Typography
-                fontSize={"0.9rem"}
-                backgroundColor={"#D9D9D9"}
-                padding={"5px 8px"}
-                borderRadius={"3px"}
-                width={"fit-content"}
-                margin={"10px 0"}
-              >
-                {d.Date}
-              </Typography>
-              <Typography fontSize={"1.3rem"} fontWeight={"bold"}>
-                {d.Title}
-              </Typography>
-              {/* <Stack direction={"row"} gap={"10px"} alignItems={"center"}>
+              <Stack gap={"10px"}>
+                <Box
+                  width="100%"
+                  height="30vh"
+                  sx={{
+                    backgroundImage: `url(${d.image.src})`,
+                    backgroundSize: "cover",
+                    borderRadius: "5px",
+                  }}
+                ></Box>
+                <Typography
+                  fontSize={"0.9rem"}
+                  backgroundColor={"#D9D9D9"}
+                  padding={"5px 8px"}
+                  borderRadius={"3px"}
+                  width={"fit-content"}
+                  margin={"10px 0"}
+                >
+                  {d.Date}
+                </Typography>
+                <Typography fontSize={"1.3rem"} fontWeight={"bold"}>
+                  {d.Title}
+                </Typography>
+                {/* <Stack direction={"row"} gap={"10px"} alignItems={"center"}>
                 <Image src={time} alt="" height={15} width={15} />
                 <Typography>{d.time}</Typography>
               </Stack> */}
-              <Stack direction={"row"} gap={"10px"} alignItems={"center"}>
-                <Image src={location} alt="" height={16} width={12} />
-                <Typography>{d.Title}</Typography>
+                <Stack direction={"row"} gap={"10px"} alignItems={"center"}>
+                  <Image src={location} alt="" height={16} width={12} />
+                  <Typography>{d.Title}</Typography>
+                </Stack>
+                <Typography>{d.description}</Typography>
               </Stack>
-              <Typography>{d.description}</Typography>
               <Button
                 sx={{
                   marginTop: "20px",
