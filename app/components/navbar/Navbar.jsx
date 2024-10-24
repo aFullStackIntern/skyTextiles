@@ -60,62 +60,62 @@ const navData = [
   {
     id: 0,
     name: "Company Profile",
-    route: "/company-profile",
+    route: "/textile-manufacturing-company",
     subRoutes: [
       {
         id: 0,
         head: "Sky Textiles.",
         data: "Fabrics & Processing",
         color: "#FFDFE6",
-        route: "/company-profile/sky-textiles",
+        route: "/textile-manufacturing-company/sky-textiles",
       },
       {
         id: 1,
         head: "SKY Primwear.",
         data: "Garmenting & Finishing",
         color: "#DFDFFD",
-        route: "/company-profile/sky-primware",
+        route: "/textile-manufacturing-company/sky-primware",
       },
       {
         id: 2,
         head: "SKY International.",
         data: "D2C and B2B Trading",
         color: "#DFD5E6",
-        route: "/company-profile/sky-international",
+        route: "/textile-manufacturing-company/sky-international",
       },
     ],
   },
   {
     id: 1,
     name: "Infrastructure",
-    route: "/infrastructure",
+    route: "/quality-textile-infrastructure-ahmedabad-gujarat-india",
     subRoutes: [],
   },
   {
     id: 2,
     name: "Product Range",
-    route: "/products",
+    route: "/products/t-shirt-manufacturers-manufacturing-company",
     subRoutes: [
       {
         id: 0,
         head: "Yarns",
         data: "Foundation for textile creation",
         color: "#FFDFE6",
-        route: "/products/yarns",
+        route: "/products/t-shirt-manufacturers-manufacturing-company/yarns",
       },
       {
         id: 1,
         head: "Fabrics",
         data: "Versatile textiles for design",
         color: "#DFDFFD",
-        route: "/products/fabrics",
+        route: "/products/t-shirt-manufacturers-manufacturing-company/fabrics",
       },
       {
         id: 2,
         head: "Garments",
         data: "Clothing for fashion",
         color: "#DFD5E6",
-        route: "/products/garments",
+        route: "/products/t-shirt-manufacturers-manufacturing-company/garments",
       },
     ],
   },
@@ -136,7 +136,8 @@ const navData = [
         head: "Events",
         data: "Events for Employees",
         color: "#DFD5E6",
-        route: "/sustainability/events",
+        route:
+          "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india",
       },
       {
         id: 2,
@@ -163,21 +164,23 @@ const navData = [
   {
     id: 6,
     name: "Get in Touch",
-    route: "/get-in-touch",
+    route: "/contact-us-tshirt-kidsWear-uniformDesign",
     subRoutes: [
       {
         id: 0,
         head: "Enquiry",
         data: "Your questions, our answers",
         color: "#FFDFE6",
-        route: "/get-in-touch/enquiry",
+        route:
+          "/contact-us-tshirt-kidsWear-uniformDesign/contact-us-tshirt-kidsWear-uniformDesign",
       },
       {
         id: 1,
         head: "Careers",
         data: "Opportunities for professional growth",
         color: "#DFDFFD",
-        route: "/get-in-touch/careers",
+        route:
+          "/contact-us-tshirt-kidsWear-uniformDesign/career-textile-fabrics-weaving-gujarat-india-asia",
       },
     ],
   },
@@ -323,7 +326,9 @@ export default function Navbar() {
             outline: "none",
             border: "none",
           }}
-          onClick={() => router.push("/get-in-touch")}
+          onClick={() =>
+            router.push("/contact-us-tshirt-kidsWear-uniformDesign")
+          }
           onMouseEnter={() => {
             setIsHovered(true);
           }}
@@ -541,7 +546,9 @@ export default function Navbar() {
                         borderRadius: "2px",
                         marginTop: "10px",
                       }}
-                      onClick={() => router.push("/get-in-touch")}
+                      onClick={() =>
+                        router.push("/contact-us-tshirt-kidsWear-uniformDesign")
+                      }
                     >
                       Contact
                     </button>

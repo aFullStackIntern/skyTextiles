@@ -2,7 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import Navbar from "../../navbar/Navbar";
 import Footer from "../../footer/Footer";
 
-import banner from "./assets/csrBanner.png";
+import banner from "./assets/csrBanner.jpg";
 import sl from "./assets/sl.png";
 import sl2 from "./assets/sl2.png";
 import stethoscope from "./assets/stethoscope.png";

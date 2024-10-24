@@ -1,5 +1,5 @@
 import { Stack, Typography } from "@mui/material";
-import banner from "./assets/banner.png";
+import banner from "./assets/banner.jpg";
 
 export default function Hero() {
   return (

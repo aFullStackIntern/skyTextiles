@@ -4,7 +4,7 @@ import { Box, Button, Stack, Typography } from "@mui/material";
 import Navbar from "../../navbar/Navbar";
 import Footer from "../../footer/Footer";
 
-import banner from "./assets/eventsBanner.png";
+import banner from "./assets/eventsBanner.jpg";
 import conference from "./assets/conference.png";
 import location from "./assets/location.png";
 import time from "./assets/clock.png";
@@ -29,7 +29,8 @@ export default function Events() {
       Title: "Sky Primwear Founders day",
       time: "11 AM - 1 PM",
       location: "Sky Textiles",
-      route: "/sustainability/events/founders-day",
+      route:
+        "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/founders-day",
       image: foundersDay,
       description:
         "1st Founders Day marked with commitments, uniform policy, and annual event.",
@@ -39,7 +40,8 @@ export default function Events() {
       Title: "Independence Day celebration",
       time: "11 AM - 1 PM",
       location: "Sky Textiles",
-      route: "/sustainability/events/independence-day",
+      route:
+        "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/independence-day",
       image: independence,
       description:
         "Independence Day celebration fostering patriotism and unity among our team.",
@@ -49,7 +51,8 @@ export default function Events() {
       Title: "Ganesh Chaturthi",
       time: "11 AM - 1 PM",
       location: "Sky Textiles",
-      route: "/sustainability/events/ganesh-chaturthi",
+      route:
+        "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/ganesh-chaturthi",
       image: ganesh,
       description:
         "Joyful Ganesh Chaturthi celebration uniting our factory team in devotion.",
@@ -59,7 +62,8 @@ export default function Events() {
       Title: "Navratri Celebration",
       time: "11 AM - 1 PM",
       location: "Sky Textiles",
-      route: "/sustainability/events/navratri",
+      route:
+        "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/navratri",
       image: navratri,
       description:
         "Navratri celebration at our factory embraces Gujarat's culture, dance, and unity.",
@@ -69,7 +73,8 @@ export default function Events() {
       Title: "Sardar Patel Jayanti",
       time: "11 AM - 1 PM",
       location: "Sky Textiles",
-      route: "/sustainability/events/sardar-patel-jayanti",
+      route:
+        "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/sardar-patel-jayanti",
       image: sardar,
       description:
         "Sardar Patel Jayanti, National Unity Day, honors India’s first Deputy PM.",
@@ -79,7 +84,8 @@ export default function Events() {
       Title: "Vishwakarma Pooja",
       time: "11 AM - 1 PM",
       location: "Sky Textiles",
-      route: "/sustainability/events/vishwakarma-puja",
+      route:
+        "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/vishwakarma-puja",
       image: vishwakarma,
       description:
         "Vishwakarma Puja celebrates Lord Vishwakarma, the divine architect, creator.",
@@ -89,7 +95,8 @@ export default function Events() {
       Title: "Fire and safety programmes",
       time: "11 AM - 1 PM",
       location: "Sky Textiles",
-      route: "/sustainability/events/fire-and-safety",
+      route:
+        "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/fire-and-safety",
       image: fireSafety,
       description:
         "Comprehensive Fire & Safety Programs ensuring a secure, compliant workplace environment.",

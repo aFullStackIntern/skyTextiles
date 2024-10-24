@@ -1,5 +1,5 @@
 import { Box, Stack } from "@mui/material";
-import banner from "./parts/assets/banner.png";
+import banner from "./parts/assets/Banner.jpg";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import Pdt from "./parts/Pdt";

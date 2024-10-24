@@ -27,7 +27,7 @@ const data = [
     Title: "Independence Day celebration",
     time: "11 AM - 1 PM",
     location: "Sky Textiles",
-    route: "/sustainability/events/independence-day",
+    route: "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/independence-day",
     image: independence,
     description:
       "Independence Day celebration fostering patriotism and unity among our team.",
@@ -37,7 +37,7 @@ const data = [
     Title: "Ganesh Chaturthi",
     time: "11 AM - 1 PM",
     location: "Sky Textiles",
-    route: "/sustainability/events/ganesh-chaturthi",
+    route: "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/ganesh-chaturthi",
     image: ganesh,
     description:
       "Joyful Ganesh Chaturthi celebration uniting our factory team in devotion.",
@@ -47,12 +47,13 @@ const data = [
     Title: "Navratri Celebration",
     time: "11 AM - 1 PM",
     location: "Sky Textiles",
-    route: "/sustainability/events/navratri",
+    route: "/sustainability/event-yarn-fabrics-textile-manufacturer-gujarat-india/navratri",
     image: navratri,
     description:
       "Navratri celebration at our factory embraces Gujarat's culture, dance, and unity.",
   },
 ];
+
 
 export default function Event() {
   const router = useRouter();
