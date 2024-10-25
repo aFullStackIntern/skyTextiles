@@ -10,7 +10,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/6.png";
+import image from "../assets/blogs/7.png";
 
 import ganesh from "../assets/Events/ganeshChaturthi/1.jpg";
 import independence from "../assets/Events/independenceDay/2.jpg";
