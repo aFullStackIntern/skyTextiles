@@ -46,6 +46,12 @@ export default function Event() {
   const router = useRouter();
   return (
     <Stack>
+      <h2 style={{ display: "none" }}>
+        Sky Textiles, the best cotton mill in India, Ahmedabad, Gujarat, and
+        Asia, offers premium-quality cotton fabrics with a focus on innovation
+        and sustainability. Discover top-tier cotton manufacturing solutions
+        trusted globally.
+      </h2>
       <Navbar />
       <Box
         height={{ lg: "80vh", smm: "50vh", xs: "30vh" }}
