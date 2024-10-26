@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/9.png";
 
 import { useRouter } from "next/navigation";
 
@@ -67,69 +67,62 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best T-Shirt Manufacturers in Ahmedabad and Gujarat: Sky Textiles
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          Ahmedabad and Gujarat have long been renowned as key hubs for the
+          textile industry, offering some of the finest apparel and fabrics in
+          India. Among the many products that come from this vibrant region,
+          T-shirts stand out for their comfort, versatility, and style. Whether
+          you're a fashion brand, retailer, or business looking for high-quality
+          custom T-shirts, finding the best T-shirt manufacturers in Ahmedabad
+          and Gujarat can make all the difference.
         </Typography>
+
         <Stack gap={"10px"}>
           <Typography
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Gujarat
+            Why Choose T-Shirt Manufacturers in Ahmedabad and Gujarat?
           </Typography>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
+            As a key part of India's textile heritage, Ahmedabad and Gujarat are
+            home to some of the top textile manufacturing companies in the
+            country. These manufacturers not only possess extensive experience
+            in garment production but also use state-of-the-art technology to
+            ensure premium quality. Here’s why opting for a textile
+            manufacturing company in Ahmedabad and Gujarat can elevate your
+            T-shirt sourcing strategy:
           </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Ahmedabad
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Shirt Production in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
-          </Typography>
+
+          <ul style={{ marginLeft: "20px" }}>
+            <li>
+              <b> Quality and Craftsmanship :</b> The best T-shirt manufacturers
+              in Ahmedabad and Gujarat maintain rigorous quality checks at every
+              stage of production. From fabric selection to final stitching,
+              these companies prioritize durability and comfort in their
+              T-shirts.
+            </li>
+            <li>
+              <b> Customization Options :</b> Whether you need screen printing,
+              embroidery, or specific design features, these manufacturers offer
+              a range of customization options to meet your branding needs.
+            </li>
+            <li>
+              <b> Sustainable Practices :</b> Many T-shirt manufacturers in the
+              region have adopted eco-friendly processes, using sustainable
+              fabrics and minimizing waste. This makes them an ideal choice for
+              businesses aiming to reduce their environmental footprint.
+            </li>
+            <li>
+              <b> Competitive Pricing :</b> Due to the region's established
+              textile infrastructure, companies in Ahmedabad and Gujarat can
+              offer competitive pricing without compromising on quality. Bulk
+              orders are especially cost-effective when working with local
+              manufacturers.
+            </li>
+          </ul>
         </Stack>
 
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>

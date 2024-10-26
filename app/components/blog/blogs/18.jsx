@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/18.jpg";
 
 import { useRouter } from "next/navigation";
 
@@ -67,78 +67,75 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best Raw Material Mixing Process in Ahmedabad, Gujarat, India and Asia
+          : Sky Textiles
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          In the textile industry, the raw material mixing process plays a
+          pivotal role in determining the final product's quality and
+          performance. In Ahmedabad, where the textile sector is thriving,
+          implementing the best mixing techniques can significantly enhance
+          production efficiency and product quality.
         </Typography>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Ahmedabad
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Shirt Production in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
-          </Typography>
-        </Stack>
-
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
+          The material blending process involves combining various raw materials
+          to achieve the desired characteristics in the final textile product.
+          Effective mixing methods are essential for achieving uniformity and
+          consistency in fabric quality. Here are some key techniques and
+          solutions that can help optimize the mixing process in your textile
+          production.
         </Typography>
-
+        <Stack gap={"10px"}>
+          <ul style={{ marginLeft: "20px" }}>
+            <li>
+              Batch Mixing : This method involves mixing raw materials in
+              specified quantities, allowing for precise control over the
+              composition. Batch mixing is ideal for producing limited runs of
+              specialized fabrics.
+            </li>
+            <li>
+              Continuous Mixing : Unlike batch mixing, continuous mixing allows
+              for a constant flow of materials, which is efficient for
+              high-volume production. This technique enhances mixing efficiency,
+              reducing turnaround times and increasing output.
+            </li>
+            <li>
+              High-Intensity Mixing : This method utilizes advanced machinery to
+              ensure thorough blending of materials. High-intensity mixers can
+              effectively combine even the most challenging materials, ensuring
+              a homogeneous mixture.
+            </li>
+            <li>
+              Customized Blending Solutions : Each textile project may have
+              unique requirements. Tailoring your blending solutions to meet
+              specific needs can lead to better outcomes, whether you’re working
+              with natural fibers or synthetic materials.
+            </li>
+            <li>
+              Quality Control Measures : Implementing stringent quality control
+              measures during the raw material prep stage ensures that only the
+              best materials are mixed. Regular testing and monitoring can help
+              maintain high standards throughout the mixing process.
+            </li>
+          </ul>
+          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+            By employing these techniques, manufacturers can achieve better
+            material combinations that enhance fabric durability, appearance,
+            and functionality. Investing in the right mixing equipment and
+            processes is crucial for businesses in Ahmedabad looking to maintain
+            a competitive edge in the textile market.
+          </Typography>
+          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+            Understanding the best raw material mixing process is essential for
+            any textile manufacturer. With the right techniques and a focus on
+            quality, you can elevate your products and drive success in the
+            vibrant textile industry of Ahmedabad. Sky Textiles exemplifies this
+            commitment to excellence, utilizing innovative mixing methods to
+            ensure superior fabric quality. By partnering with industry leaders
+            like Sky Textiles, manufacturers can enhance their production
+            processes and achieve outstanding results.
+          </Typography>
+        </Stack>
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}

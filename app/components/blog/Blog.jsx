@@ -339,7 +339,7 @@ export default function Events() {
                   transform: "scale(1.04)",
                 },
               }}
-              onClick={() => router.push(d.route)}
+              onClick={() => router.push(`/blog${d.route}`)}
             >
               View More
             </Button>

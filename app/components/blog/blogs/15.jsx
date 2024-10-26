@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/15.jpg";
 
 import { useRouter } from "next/navigation";
 
@@ -67,78 +67,53 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best Cotton Mill in India: Sky Textiles Leading the Way in Ahmedabad,
+          Gujarat, and Asia
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          Sky Textiles, located in Ahmedabad, Gujarat, is renowned as the best
+          cotton mill in India, setting the standard for quality and innovation
+          in the textile industry. With its state-of-the-art infrastructure and
+          advanced manufacturing techniques, Sky Textiles has become a leading
+          name not only in India but also across Asia.
         </Typography>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Ahmedabad
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Shirt Production in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
-          </Typography>
-        </Stack>
 
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
+          As a pivotal player in the cotton industry, Sky Textiles has earned
+          its place as the best cotton mill in Ahmedabad. The mill’s reputation
+          is built on its unwavering commitment to producing top-tier cotton
+          fabrics that meet the diverse needs of industries, from apparel to
+          home textiles. By combining traditional techniques with modern
+          technology, Sky Textiles has successfully positioned itself as a
+          trusted partner for businesses seeking high-quality cotton products.
         </Typography>
-
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          In addition to its status as the best in Ahmedabad, Sky Textiles is
+          recognized as the best cotton mill in Gujarat. With a long history of
+          textile expertise and a deep understanding of the industry, the
+          company has built an impressive portfolio of cotton fabrics that are
+          known for their durability, softness, and eco-friendly processing.
+          Their dedication to quality has earned them a reputation as a reliable
+          supplier to leading domestic and international markets.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          Sky Textiles’ reach extends far beyond Gujarat, making its mark as the
+          best cotton mill in Asia. With an expanding export business and an
+          increasing global presence, they cater to international markets,
+          providing high-quality cotton fabric solutions to industries
+          worldwide. Their commitment to innovation and sustainability has set
+          them apart in the competitive textile industry, as they continually
+          invest in cutting-edge machinery and eco-friendly practices.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          At Sky Textiles, innovation meets sustainability. The company’s focus
+          on eco-conscious manufacturing processes, including water and energy
+          conservation, positions them as an industry leader in promoting
+          sustainable practices within the cotton industry. This
+          forward-thinking approach ensures that they remain ahead of the curve
+          while meeting the ever-growing demand for environmentally friendly and
+          ethically produced textiles.
+        </Typography>
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}

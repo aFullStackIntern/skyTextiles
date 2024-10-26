@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/16.jpg";
 
 import { useRouter } from "next/navigation";
 
@@ -67,33 +67,38 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best Rib Machines in Ahmedabad, Gujarat, India, and Asia
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          When it comes to rib knitting machines, Ahmedabad in Gujarat stands
+          out as a prominent hub for high-quality and advanced textile
+          machinery. Best Rib Machines in Ahmedabad, Gujarat, India, and Asia.
+          Gujarat is known for its rich textile industry, and rib machines play
+          a vital role in producing rib fabrics, which are in high demand across
+          India and Asia. With innovations in rib knitting technology,
+          manufacturers in Ahmedabad have emerged as key suppliers and exporters
+          of rib fabric machines, catering to both local and international
+          markets. Whether you're looking for affordable rib machines or
+          top-tier industrial equipment, Ahmedabad offers a wide range of
+          options.
         </Typography>
         <Stack gap={"10px"}>
           <Typography
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Gujarat
+            Why Choose Rib Knitting Machines from Ahmedabad?
           </Typography>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
+            Ahmedabad, being the textile capital of India, boasts
+            state-of-the-art rib fabric machines that cater to the needs of
+            manufacturers across the globe. Sky Textiles has been a key player
+            in providing high-quality rib machines in India and other parts of
+            Asia. These machines are built using the latest rib knitting
+            technology in India, ensuring smooth operations and delivering
+            superior fabric output. The city has become a center for rib machine
+            manufacturers in Ahmedabad, offering world-class products that meet
+            the diverse needs of the textile industry.
           </Typography>
         </Stack>
         <Stack gap={"10px"}>
@@ -101,17 +106,16 @@ export default function Event() {
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Ahmedabad
+            Advanced Rib Machines in Gujarat
           </Typography>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
+            The advanced machinery available at Sky Textiles offers top-notch
+            performance, making them one of the best rib machine suppliers in
+            Gujarat. Known for their durability and efficiency, these machines
+            are designed to handle a wide variety of yarns and produce rib
+            fabrics with unmatched precision. If you're looking for affordable
+            rib machines in Asia without compromising on quality, Sky Textiles
+            has the perfect solutions for you.
           </Typography>
         </Stack>
         <Stack gap={"10px"}>
@@ -119,26 +123,29 @@ export default function Event() {
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Shirt Production in Gujarat
+            Exporting Excellence: Rib Machines from India to Asia
           </Typography>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
+            Sky Textiles is not just a local supplier but also a prominent rib
+            machine exporter in Asia, providing cutting-edge equipment to
+            manufacturers across borders. Their machines are highly sought after
+            in neighboring countries due to their superior build quality, ease
+            of operation, and long-lasting performance. This makes Sky Textiles
+            one of the leading rib machine brands in Asia.
           </Typography>
         </Stack>
-
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
+          From small-scale enterprises to large-scale industries, the demand for
+          high-quality rib knitting machines in Gujarat is ever-growing. Sky
+          Textiles, with its industrial rib machines in India, stands out as a
+          trusted partner in the textile sector, offering top-of-the-line rib
+          circular knitting machines in Asia that cater to the evolving demands
+          of the industry.
         </Typography>
-
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          Visit Sky Textiles today to explore the best options for your
+          business!
+        </Typography>
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}

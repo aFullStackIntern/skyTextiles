@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/12.png";
 
 import { useRouter } from "next/navigation";
 
@@ -67,78 +67,62 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Shirt Manufacturers in Ahmedabad, Gujarat, India, and Asia:
+          Skytextiles
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          When it comes to quality shirts, Skytextile has carved a niche as one
+          of the leading shirt manufacturers in Ahmedabad, Gujarat, India, and
+          Asia. Our commitment to craftsmanship, quality materials, and
+          innovative designs makes us a preferred choice for businesses seeking
+          reliable shirt production.
         </Typography>
         <Stack gap={"10px"}>
           <Typography
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Gujarat
+            Why Choose Skytextile as Your Shirt Manufacturer?
           </Typography>
+          <ul style={{ marginLeft: "20px" }}>
+            <li>
+              <b> Exceptional Quality:</b> At Skytextile, we believe that
+              quality is paramount. Our shirts are crafted from premium fabrics,
+              ensuring comfort and durability. Our rigorous quality control
+              processes guarantee that each shirt meets the highest standards,
+              making us a standout among shirt manufacturers in Ahmedabad.
+            </li>
+            <li>
+              <b> Custom Designs:</b> We understand that every brand has its
+              unique identity. Our talented design team works closely with
+              clients to create custom shirts tailored to their specific needs.
+              Whether you're looking for formal shirts for corporate use or
+              casual styles for everyday wear, we can bring your vision to life.
+            </li>
+            <li>
+              <b> Sustainable Practices:</b> As one of the top shirt
+              manufacturers in Gujarat, we are committed to environmentally
+              friendly practices. We source materials responsibly and implement
+              sustainable manufacturing processes, reducing our ecological
+              footprint and promoting a greener future.
+            </li>
+            <li>
+              <b> Wide Range of Styles:</b> From classic button-downs to trendy
+              casual shirts, Skytextile offers a diverse range of styles to suit
+              every occasion. Our extensive collection ensures that you find the
+              perfect shirts for your brand or business.
+            </li>
+          </ul>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
+            Skytextile stands as a beacon in the best textile industry in
+            Ahmedabad, Gujarat, India, and Asia. Our unwavering dedication to
+            quality, innovation, and sustainability ensures that we meet the
+            diverse needs of our clients. Whether you’re a small business or a
+            large corporation, we are here to provide you with the textile
+            solutions you need. Visit Skytextile today to learn more about our
+            products and how we can help elevate your business!
           </Typography>
         </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Ahmedabad
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Shirt Production in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
-          </Typography>
-        </Stack>
-
-        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
-        </Typography>
-
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}

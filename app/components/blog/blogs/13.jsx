@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/13.png";
 
 import { useRouter } from "next/navigation";
 
@@ -67,33 +67,37 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best Fabrics in Gujarat: Discover Skytextiles for Quality and
+          Innovation
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          When it comes to high-quality fabric manufacturing, Skytextiles stands
+          out as a leading name in the textile industry. Based in Gujarat, a
+          state known for its rich textile heritage, Skytextiles offers a wide
+          range of premium fabrics that cater to various industries, from
+          fashion to home furnishings. Whether you are a designer, retailer, or
+          manufacturer, Skytextiles is your go-to destination for the best
+          fabrics in Gujarat.
         </Typography>
         <Stack gap={"10px"}>
           <Typography
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Gujarat
+            Premium Fabrics for Every Need
           </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
+          <Typography
+            fontSize={{ md: "1rem", xs: "0.7rem" }}
+            fontWeight={"bold"}
+          >
+            At Skytextiles, we take pride in providing fabrics that are not only
+            durable but also stylish. Our extensive collection includes cotton,
+            linen, polyester, and blends, perfect for creating clothing,
+            upholstery, and more. Each fabric is carefully crafted with
+            attention to detail, ensuring that you get the highest quality
+            materials for your projects. Whether you're looking for lightweight
+            fabrics for summer wear or heavier textiles for upholstery,
+            Skytextiles has you covered.
           </Typography>
         </Stack>
         <Stack gap={"10px"}>
@@ -101,17 +105,18 @@ export default function Event() {
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Ahmedabad
+            Gujarat: A Hub for Textile Excellence
           </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
+          <Typography
+            fontSize={{ md: "1rem", xs: "0.7rem" }}
+            fontWeight={"bold"}
+          >
+            Gujarat has long been known as a hub for textile production, and
+            Skytextiles embodies the state’s tradition of excellence. Our
+            state-of-the-art manufacturing facility utilizes the latest
+            technology to produce fabrics that meet global standards. From
+            intricate weaves to smooth finishes, our products reflect the
+            craftsmanship and expertise that Gujarat is renowned for.
           </Typography>
         </Stack>
         <Stack gap={"10px"}>
@@ -119,26 +124,48 @@ export default function Event() {
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Shirt Production in Gujarat
+            Innovation and Sustainability
           </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
+          <Typography
+            fontSize={{ md: "1rem", xs: "0.7rem" }}
+            fontWeight={"bold"}
+          >
+            In addition to producing high-quality fabrics, Skytextiles is
+            committed to sustainability. We use eco-friendly production methods
+            and source materials ethically, ensuring that our products have a
+            minimal environmental impact. Our fabrics are designed to be both
+            functional and environmentally responsible, making them an excellent
+            choice for businesses looking to reduce their carbon footprint.
+          </Typography>
+        </Stack>
+        <Stack gap={"10px"}>
+          <Typography
+            fontSize={{ md: "1rem", xs: "0.7rem" }}
+            fontWeight={"bold"}
+          >
+            Why Choose Skytextiles?
+          </Typography>
+          <Typography
+            fontSize={{ md: "1rem", xs: "0.7rem" }}
+            fontWeight={"bold"}
+          >
+            As one of the top fabric manufacturers in Gujarat, Skytextiles
+            offers unmatched quality, innovation, and customer service. With our
+            diverse range of fabrics, competitive pricing, and dedication to
+            sustainability, we have earned the trust of clients across India and
+            beyond.
           </Typography>
         </Stack>
 
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
+          Skytextile stands as a beacon in the best textile industry in
+          Ahmedabad, Gujarat, India, and Asia. Our unwavering dedication to
+          quality, innovation, and sustainability ensures that we meet the
+          diverse needs of our clients. Whether you’re a small business or a
+          large corporation, we are here to provide you with the textile
+          solutions you need. Visit Skytextile today to learn more about our
+          products and how we can help elevate your business!
         </Typography>
-
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}

@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/19.jpg";
 
 import { useRouter } from "next/navigation";
 
@@ -67,78 +67,76 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best Speed Frame Process in Ahmedabad, Gujarat, India and Asia : sky
+          textiles
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          In the dynamic world of textile manufacturing, optimizing pre-spinning
+          processes is essential for quality and efficiency. Sky Textiles, a
+          leading textile business in Gujarat, pioneers the best speed frame
+          process in Gujarat, ensuring high productivity and superior quality
+          yarn production. From enhancing speed frame efficiency to optimizing
+          drafting control in textiles, Sky Textiles is at the forefront of
+          revolutionizing the industry in India and beyond.
         </Typography>
         <Stack gap={"10px"}>
           <Typography
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Gujarat
+            Speed Frame Process: A Critical Pre-Spinning Step
           </Typography>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
+            The speed frame process is crucial in preparing yarn for the
+            spinning phase. It involves drafting, twisting, and winding the
+            fibers into a roving, which serves as the intermediary product
+            before final yarn spinning. Sky Textiles specializes in maximizing
+            this process by integrating advanced technology and precision
+            control.
           </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
+          <ul style={{ marginLeft: "20px" }}>
+            <li>
+              Best Speed Frame Process in Ahmedabad : With its state-of-the-art
+              facility in Ahmedabad, Sky Textiles offers one of the best speed
+              frame processes in the region. Advanced machinery and automated
+              systems ensure that the roving production is consistent, reducing
+              waste and enhancing overall product quality.
+            </li>
+            <li>
+              Best Speed Frame Process in India : Across India, Sky Textiles
+              stands out for its commitment to high speed frame efficiency. By
+              leveraging cutting-edge automation and machinery, the company
+              reduces human error and enhances output, making it a leader in
+              textile innovation.
+            </li>
+            <li>
+              Best Speed Frame Process in Asia : Sky Textiles is also recognized
+              as a key player in Asia, setting benchmarks for pre-spinning
+              optimization. By focusing on fine-tuning every aspect of the
+              roving production process, Sky Textiles ensures that its clients
+              receive the highest quality products with minimal waste.
+            </li>
+          </ul>
           <Typography
             fontSize={{ md: "1rem", xs: "0.7rem" }}
             fontWeight={"bold"}
           >
-            Best Textile Products in Ahmedabad
+            Efficiency through Technology: Roving Production & Drafting Control
           </Typography>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Shirt Production in Gujarat
+            One of the standout features of Sky Textiles is its ability to
+            maintain precise drafting control in textiles, which ensures
+            consistency in yarn thickness and quality. Automation in textile
+            machinery further enhances the production line, allowing for faster
+            and more efficient manufacturing processes.
           </Typography>
           <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
+            Sky Textiles is your go-to partner for the best speed frame process
+            in Gujarat and across India. With a focus on innovation and
+            efficiency, the company continues to lead the industry in
+            high-quality textile production.
           </Typography>
         </Stack>
-
-        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
-        </Typography>
-
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}

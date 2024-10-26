@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/21.jpg";
 
 import { useRouter } from "next/navigation";
 
@@ -67,78 +67,61 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best Fleece Machines and Multiple fabric blend in Ahmedabad, Gujarat,
+          India and Asia : Sky Textiles
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          When it comes to best sustainable textiles in Gujarat, Sky Textiles
+          stands out as a leader in the industry. With a commitment to quality
+          and innovation, we offer the best fleece machines in Ahmedabad,
+          designed to meet the diverse needs of fabric manufacturers. Our
+          state-of-the-art machinery ensures high performance and efficiency,
+          making it easier for businesses to produce high-quality fleece
+          fabrics.
         </Typography>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Ahmedabad
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Shirt Production in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
-          </Typography>
-        </Stack>
 
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
+          Our extensive range of best fleece machines in Gujarat caters to both
+          small and large-scale production. Whether you’re looking for
+          high-speed knitting machines or advanced finishing equipment, we have
+          the right solutions to help you achieve your production goals. Our
+          machines are equipped with the latest technology, allowing for precise
+          control and minimal waste.
         </Typography>
-
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          In addition to fleece machines, we specialize in multiple fabric
+          blends in Ahmedabad. Our expertise extends to creating custom fabric
+          solutions tailored to your specific requirements. From blended fabrics
+          that combine the best of natural and synthetic fibers to unique
+          textures and patterns, we help you stand out in the competitive
+          textile market.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          Sky Textiles is not just known for the best fleece machines in India;
+          we are also recognized for our advanced fabric manufacturing
+          techniques. Our team of experts works diligently to develop innovative
+          products that meet global sustainability standards. This includes a
+          focus on eco-friendly materials and processes that minimize
+          environmental impact.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          For businesses seeking to expand their offerings, we provide insights
+          into the multiple fabric blends in India and across Asia. Our
+          comprehensive knowledge of textile trends ensures that you stay ahead
+          of the competition. By leveraging the best fleece machines and
+          advanced blending techniques, you can create high-quality products
+          that cater to diverse customer preferences. We offer fabrics in a GSM
+          range of 120 GSM – 450 GSM, allowing you to select the ideal thickness
+          and weight for your specific applications, enhancing both comfort and
+          durability in your final products.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          If you’re searching for high-performance textile machinery, look no
+          further than Sky Textiles. Our commitment to quality, sustainability,
+          and customer satisfaction makes us the ideal partner for all your
+          fabric manufacturing needs. Explore our range of best fleece machines
+          in Asia and take your textile business to new heights!
+        </Typography>
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}

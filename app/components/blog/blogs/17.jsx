@@ -8,7 +8,7 @@ import image1 from "../assets/blogs/1.jpg";
 import image2 from "../assets/blogs/2.png";
 import image3 from "../assets/blogs/3.png";
 
-import image from "../assets/blogs/7.png";
+import image from "../assets/blogs/17.jpg";
 
 import { useRouter } from "next/navigation";
 
@@ -67,78 +67,63 @@ export default function Event() {
       </Box>
       <Stack margin={{ md: "50px", smm: "30px", xs: "20px" }} gap={"10px"}>
         <Typography fontSize={{ lg: "2.5rem", smm: "1.7rem", xs: "1rem" }}>
-          Best Textile Products in Gujarat & Ahmedabad | Best Shirt Production –
-          Sky Textiles
+          Best Draw Frame Process in Ahmedabad ,Gujarat, india and asia : sky
+          textiles
         </Typography>
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          When it comes to sourcing high-quality textile products, Sky Textiles
-          stands out as one of the leading manufacturers in Gujarat and
-          Ahmedabad. Known for its innovation, craftsmanship, and dedication to
-          excellence, Sky Textiles is a trusted name in the textile industry.
-          Whether you're looking for premium fabrics or the best shirt
-          production in Gujarat, Sky Textiles offers comprehensive solutions
-          that meet your every need.
+          The best draw frame process in Gujarat is essential for ensuring the
+          efficiency and quality of textile production. As the backbone of
+          spinning, draw frames play a crucial role in aligning fibers,
+          improving strength, and preparing the yarn for subsequent processes.
+          In this blog, we explore the leading manufacturers, suppliers, and
+          technologies shaping the draw frame landscape in Gujarat.
         </Typography>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Sky Textiles is recognized for producing some of the best textile
-            products in Gujarat, offering a wide range of fabrics suitable for
-            fashion, home décor, and industrial use. From durable cottons to
-            luxurious silks, their textiles are known for their quality,
-            durability, and aesthetic appeal. The company prides itself on its
-            ability to deliver textiles that meet international standards while
-            staying true to Gujarat’s rich textile heritage.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Textile Products in Ahmedabad
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            Based in Ahmedabad, Sky Textiles also serves as a key player in the
-            city's textile market, known for offering the best textile products
-            in Ahmedabad. The company’s advanced manufacturing facilities,
-            combined with its commitment to sustainable practices, ensure that
-            every piece of fabric is crafted to perfection. Designers,
-            manufacturers, and retailers alike can rely on Sky Textiles for
-            innovative designs and high-performance fabrics that cater to a
-            variety of industries.
-          </Typography>
-        </Stack>
-        <Stack gap={"10px"}>
-          <Typography
-            fontSize={{ md: "1rem", xs: "0.7rem" }}
-            fontWeight={"bold"}
-          >
-            Best Shirt Production in Gujarat
-          </Typography>
-          <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-            For those in need of premium apparel manufacturing, Sky Textiles
-            also specializes in best shirt production in Gujarat. The company’s
-            state-of-the-art shirt production unit utilizes advanced
-            technologies and skilled craftsmanship to create shirts that are not
-            only stylish but also comfortable and durable. Whether for casual
-            wear, corporate uniforms, or custom designs, Sky Textiles guarantees
-            top-quality shirt production that meets your specific requirements.
-          </Typography>
-        </Stack>
 
         <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
-          In conclusion, Sky Textiles is your go-to partner for premium textile
-          products and apparel manufacturing in Gujarat and Ahmedabad. With a
-          focus on quality, innovation, and customer satisfaction, Sky Textiles.
-          delivers the best solutions for your textile needs.
+          Draw Frame Manufacturers in Gujarat have significantly advanced the
+          technology behind these machines, enabling enhanced performance and
+          durability. With a focus on innovation, these manufacturers have
+          developed systems that optimize the draw frame process efficiency,
+          allowing textile businesses to achieve higher production rates without
+          compromising quality.
         </Typography>
-
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          Among the top draw frame suppliers in Gujarat, you'll find companies
+          that provide high-quality draw frame equipment tailored to the needs
+          of the textile industry. These suppliers understand the unique
+          challenges faced by manufacturers and offer solutions that enhance the
+          draw frame production process in India. Their machines are designed
+          for versatility and reliability, ensuring consistent output in various
+          production environments.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          Moreover, draw frame technology in Gujarat is continually evolving,
+          integrating smart features that monitor and control the spinning
+          process. This advancement allows for real-time adjustments, maximizing
+          the performance of draw frame systems and reducing waste. Such
+          innovations are crucial for maintaining a competitive edge in the
+          rapidly growing textile market.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          Sky Textiles is at the forefront of these advancements, providing
+          cutting-edge draw frame solutions that enhance efficiency and
+          productivity for textile manufacturers.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          When it comes to industrial draw frames in Gujarat, businesses are
+          increasingly turning to integrated systems that streamline operations
+          from fiber preparation to yarn spinning. These systems not only
+          enhance efficiency but also lower operational costs, making them a
+          smart investment for textile manufacturers.
+        </Typography>
+        <Typography fontSize={{ md: "1rem", xs: "0.7rem" }}>
+          The draw frame machines in Gujarat represent a blend of tradition and
+          modernity, offering high-quality solutions that cater to the dynamic
+          needs of the textile industry. For those seeking textile draw frame
+          solutions in India, partnering with reputable manufacturers and
+          suppliers will ensure access to state-of-the-art equipment and
+          technology.
+        </Typography>
         {/* <Stack
           direction={{ md: "row" }}
           gap={"20px"}
